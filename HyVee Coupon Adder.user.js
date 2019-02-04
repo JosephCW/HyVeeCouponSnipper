@@ -42,10 +42,10 @@ setTimeout(function() {
     var moreCouponsExist = !document.body.contains(noCouponsDiv);
     if (moreCouponsExist) {
       setTimeout(
-    		function() {
-      		console.log("Refreshing the page to select more coupons");
-    			location.reload(); 
-  		}, ((coupons.length * waitDelayInSeconds) + initialDelayInSeconds) * 1000);
+	function() {
+      	  console.log("Refreshing the page to select more coupons");
+    	  location.reload(); 
+  	}, ((coupons.length * waitDelayInSeconds) + initialDelayInSeconds) * 1000);
     } else {
       console.log("Finished clicking all coupons!");
     }
