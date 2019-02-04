@@ -2,7 +2,7 @@
 // @name     Hy-Vee Coupon Snippper
 // @version  1
 // @grant    none
-// @include https://www.hy-vee.com/deals/coupons.aspx?l=1
+// @include https://www.hy-vee.com/deals/coupons.aspx*
 // ==/UserScript==
 
 var refreshDelayInSeconds = 10;
